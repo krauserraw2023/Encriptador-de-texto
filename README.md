@@ -1,1 +1,1 @@
-# Cristhian Enrique De La Cruz Diaz - Challenge-Oracle-ONE
+# Cristhian Enrique De La Cruz Diaz | Challenge-Oracle-ONE
