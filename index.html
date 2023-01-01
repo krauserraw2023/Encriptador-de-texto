@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./libs/css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./libs/js/sweetalert2.js"></script>
+  </head>
+  <body>
+    <div class="background">
+      <div class="panel">
+        <div class="panel-izquierdo">
+          <div class="cabecera">
+            <img
+              class="logo-cabecera"
+              src="./img/Logo.png"
+              alt="logo de la aplicación"
+            />
+          </div>
+          <div class="cuerpo">
+            <textarea
+              class="input-mensaje"
+              placeholder="Ingrese el texto aquí"
+            ></textarea>
+          </div>
+          <div class="pie">
+            <div class="buttons-border">
+              <div class="info-panel">
+                <img src="./img/InfoLogo.png" />
+                <span>Solo letras minúsculas y sin acentos</span>
+              </div>
+              <div class="buttons-panel">
+                <button id="as" class="btn-encrypt">Encriptar</button>
+                <button class="btn-decrypt">Desencriptar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel-derecho">
+          <div class="bienvenida">
+            <img
+              class="imagen-bienvenida"
+              src="./img/Muñeco.png"
+              alt="imagen de una persona"
+            />
+            <div class="primer-parrafo">Ningún mensaje fue encontrado</div>
+            <div class="segundo-parrafo">
+              Ingresa el texto que desees encriptar o desencriptar.
+            </div>
+          </div>
+          <div class="resultado hide-element">
+            <div class="nuevo-mensaje"></div>
+            <div class="btn-copy-and-clear-border">
+              <button class="btn-clear btn-copy-and-clear">Limpiar</button>
+              <button class="btn-copy btn-copy-and-clear">Copiar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="created_by">
+      Creado por Cristhian De La Cruz
+    </div>
+    <script src="./js/utils.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
